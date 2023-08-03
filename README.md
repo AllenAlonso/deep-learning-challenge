@@ -6,7 +6,7 @@
 
 ## Compiling, Training, and Evaluating the Model:
 
-### The model started with two layers with 80 units and 30 units for layers one and two respectively. This yielded about 72% accuracy. To optimize the setting I increased the second layer to 40 units and the accuracy was the same at 72%. In the third optimization I added a third layer with 30 units but it still had no noticeable change to the accuracy. I increased the second layer and eneded up with 80, 80, 30 and still maintained a 72% accuracy. It did not seem hat there was very much I could do to change the outcome as increasing to these levels had no effect. 
+### The model started with two layers with 80 units and 30 units for layers one and two respectively. This yielded about 72% accuracy. To optimize the setting I increased the second layer to 40 units and the accuracy was the same at 72%. In the third optimization I added a third layer with 30 units but it still had no noticeable change to the accuracy. I increased the second layer and eneded up with 80, 80, 30 and still maintained a 72% accuracy. It did not seem hat there was very much I could do to change the outcome as increasing to these levels had no effect. I used the same file to change the trial runs for optimization.
 
 ## Summary:
 
