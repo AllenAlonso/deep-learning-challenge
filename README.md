@@ -11,7 +11,7 @@ The model started with two layers with 80 units and 30 units for layers one and 
 
 Even with the addition of layers and changing the activation types it made little difference to the outcome of the model. Both the "optimized" model and the base model have about the same levels of accuracy and loss. Unless I had a better computer to run models of impressive sizes. it seems to be futile to attempt optimization at this level.
 
-
+<br>
 
 Step 1: Preprocess the Data
 Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
