@@ -1,17 +1,18 @@
 # deep-learning-challenge
 
-# Overview:
-This shows how machine leaning can be implemented to predict real data and in this case the success of potential applicants. I had to adjust for any modifications that came out of optimizing the model in order to optimize the model to achieve higher than 75% accuracy.
+## Overview:
 
-# Compiling, Training, and Evaluating the Model:
+### This shows how machine leaning can be implemented to predict real data and in this case the success of potential applicants. I had to adjust for any modifications that came out of optimizing the model in order to optimize the model to achieve higher than 75% accuracy.
 
-The model started with two layers with 80 units and 30 units for layers one and two respectively. This yielded about 72% accuracy. To optimize the setting I increased the second layer to 40 units and the accuracy was the same at 72%. In the third optimization I added a third layer with 30 units but it still had no noticeable change to the accuracy. I increased the second layer and eneded up with 80, 80, 30 and still maintained a 72% accuracy. It did not seem hat there was very much I could do to change the outcome as increasing to these levels had no effect. 
+## Compiling, Training, and Evaluating the Model:
 
-# Summary:
+### The model started with two layers with 80 units and 30 units for layers one and two respectively. This yielded about 72% accuracy. To optimize the setting I increased the second layer to 40 units and the accuracy was the same at 72%. In the third optimization I added a third layer with 30 units but it still had no noticeable change to the accuracy. I increased the second layer and eneded up with 80, 80, 30 and still maintained a 72% accuracy. It did not seem hat there was very much I could do to change the outcome as increasing to these levels had no effect. 
 
-Even with the addition of layers and changing the activation types it made little difference to the outcome of the model. Both the "optimized" model and the base model have about the same levels of accuracy and loss. Unless I had a better computer to run models of impressive sizes. it seems to be futile to attempt optimization at this level.
+## Summary:
 
-<br>
+### Even with the addition of layers and changing the activation types it made little difference to the outcome of the model. Both the "optimized" model and the base model have about the same levels of accuracy and loss. Unless I had a better computer to run models of impressive sizes. it seems to be futile to attempt optimization at this level.  
+
+
 
 Step 1: Preprocess the Data
 Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
